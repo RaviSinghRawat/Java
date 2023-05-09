@@ -1,0 +1,91 @@
+ // persentes
+ /* import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	     int hindi, maths, english, persentage, total;
+	     Scanner ob = new Scanner(System.in);
+		System.out.println("Enter student's marks");
+		hindi = ob.nextInt();
+		maths = ob.nextInt();
+		english = ob.nextInt();
+		total = hindi+maths+english;
+		persentage = total*100/300;
+		System.out.println("Total marks marks : " + total);
+		System.out.println("Persentage : " + persentage);
+
+	}
+} 
+
+
+// SIMPLE Intrest
+import java.util.Scanner;
+public class Main{
+	public static void main(String arr[]);
+	{
+		float p,r,t,si;
+		Scanner ob = new Scanner(System.in);
+		System.out.println("Enter price rate and time");
+		p = ob.nextFloat();
+		r = ob.nextFloat();
+		t = ob.nextFloat();
+		si = p*r*t/100;
+		System.out.println("Simple intrest = " + si);
+
+	}
+}
+
+
+
+
+// Swap 2 number
+
+class Main{
+	public static void main(String[] args) {
+
+	
+		int a=10, b=20,c;
+		System.out.println("Before swaping  A " +a+ "B" +b);
+	c = a;
+	a = b;
+	b = c;
+	System.out.println("Before swaping  A " +a+ "B" +b);
+
+	}
+}
+
+
+// Swap 2 number withut third variable
+
+class Main{
+	public static void main(String[] args) {
+
+	
+		int a=10, b=20,c;
+		System.out.println("Before swaping  A " +a+ "B" +b);
+	a = a+b;
+	a =a-b;
+	b = a-b;
+	System.out.println("Before swaping  A " +a+ "B" +b);
+
+	}
+}
+
+// String, Char, Boolean
+import java.util.Scanner;
+class Main
+{
+    public static void main(String []args)
+    {
+        String st;
+        char ch;
+        boolean b;
+        Scanner ob = new Scanner(System.in);
+        System.out.println("Enter a string");
+        st = ob.nextLine();
+        System.out.println("String = " + st);
+        System.out.println("String = " + st.charAt(0));
+        b = true;
+        System.out.println("boolean is = " + b);
+    }
+}
